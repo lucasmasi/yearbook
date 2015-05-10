@@ -22,7 +22,7 @@ $resultados = $banco->obterTodosParticipantes();
     if (count($resultados) > 0) {
         $contador = 0;
         echo '<div><table class="tabela">';
-        echo '<thead><tr><th colspan="2">Participantes encontrados</th></tr></thead>';
+        echo '<thead><tr><th colspan="2">Todos os participantes</th></tr></thead>';
         echo '<thead><tr><th class="titulo">Foto</th><th class="colunaNome titulo">Nome</th></tr></thead>';
         echo '<tbody>';
         foreach ($resultados as $participante) {  //para cada elemento do vetor de resultados...
