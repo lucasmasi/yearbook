@@ -12,12 +12,6 @@ include_once("./utils/configuracoes.php");
 
 include_once("./modelos/cabecalho_interno.html");
 
-if (count($_POST) != 1) {
-    echo "<main><div class=\"mensagemErro\"><label>Erro na pesquisa. Não há parâmetros suficientes</label></div></main>";
-    include_once("./modelos/rodape.html");
-    die();
-}
-
 // Iniciar o objeto do banco de dados
 $banco = new BancoDeDados();
 
