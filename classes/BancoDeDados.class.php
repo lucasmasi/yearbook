@@ -12,14 +12,15 @@ class BancoDeDados {
 
     /*
      * Método construtor que inicia a conexão com o banco de dados
+     * Database=as_1e802d841f9cf64;Data Source=us-cdbr-azure-west-b.cleardb.com;User Id=bf315bb8556c36;Password=bb709aae
      */
 
     function __construct() {
-        $this->servidor = 'localhost';
+        $this->servidor = 'us-cdbr-azure-west-b.cleardb.com';
         $this->porta = 3306;
-        $this->banco = "daw_yearbook";
-        $this->usuario = "daw";
-        $this->senha = "daw2014";
+        $this->banco = "as_1e802d841f9cf64";
+        $this->usuario = "bf315bb8556c36";
+        $this->senha = "bb709aae";
         $this->options = array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8');
         $this->conexao = new PDO("mysql:host=$this->servidor;port=$this->porta;dbname=$this->banco", $this->usuario, $this->senha, $this->options
         );
