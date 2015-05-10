@@ -1,0 +1,371 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    min-width: 70em;
+    max-width: 80em;
+    background-color: #F2F2F2;
+}
+
+/* Estilos do título da página */
+
+header {
+    background-color: #F2F2F2;
+    border-style: solid;
+    border-width: thin;
+    border-color: #ADADAD;
+    text-align: center;
+    display: inline-block;
+    border-radius: 1em;
+    box-shadow: 5px 5px 10px #444;
+    margin-top: 1em;
+    width: 100%;
+}
+
+header > img {
+    float: left; 
+    padding-left: 20%; 
+    padding-top: 1em;
+}
+
+header > h1 {
+    float:left; 
+    text-align:center; 
+    padding-left: -1em;
+    width:56%;
+}
+
+header > p {
+    float:left; 
+    text-align:center; 
+    width:56%;
+    font-style: italic;
+}
+
+/* --------------------------------------------- */
+/* Estilos do menu */
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    background-color: #F2F2F2;
+    border-style: solid;
+    border-width: thin;
+    border-color: #ADADAD;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 1em;
+    box-shadow: 5px 5px 10px #444;
+    padding: 5px;
+    margin-left: 1em;
+    color: black;
+}
+
+nav form {
+    float: right;
+}
+
+.botao-pesquisa {
+    background-image: url('/Yearbook/img/pesquisa.png'); /* 16px x 16px */
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    text-indent: 18px;
+    background-position: 1px 2px;  /* equivalent to 'top left' */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    vertical-align: middle; /* align the text vertically centered */
+}
+
+nav a.sair {
+    color: red !important;
+}
+
+nav a:hover {
+    background: #EBE6E6;
+}
+
+/* ------------------------- */
+
+main {
+    width: 80%;
+    min-width: 50em;
+    margin: 3em auto;
+}
+
+main > div {
+    margin-top: 2em;
+    display: table;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    border-width: thin;
+    border-style: solid;
+    border-color: #ADADAD;
+    margin: 3em auto;
+}
+
+main > div > h2 {
+    margin-left: 1.9em;
+    clear: both;
+    font-family: cursive, sans-serif;
+    font-size: 1.2em;
+}
+
+main > div > figure {
+    float: left;
+    margin-left: 2em;
+    margin-bottom: 2em;
+    width: 240px;
+    height: 320px;
+}
+
+main > div > a {
+    display: inline-block;
+    margin-left: 1em;
+    width: 8em;
+    text-decoration: none;
+}
+
+main > div > a > figure.mini {
+    text-align: center;
+    margin: 0 !important;
+    padding: 0.5em;
+}
+
+main > div > a > figure.mini .figura {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #444;
+}
+
+main > div > a > figcaption {
+    text-align: center;
+    font-size: 0.7em;
+}
+
+main > div > figure > img {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #444;
+}
+
+main > div  dl {
+    float: left;
+    text-align: justify;
+    margin-left: 5em;   
+    width: 50%;
+}
+
+dl > dt {
+    margin-top: 0.5em;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+dl > dd {
+    font-size: 0.8em;
+}
+
+/* Estilo da tabela de resultado da busca */
+
+.tabela {
+    margin: 1em auto;
+}
+
+.tabela tr.linha_interna {
+    border: thin solid black;
+}
+
+.tabela tr.linha_impar {
+    background: #EBF7F7;
+}
+
+.tabela td, th {
+    padding: 5px;
+}
+
+.tabela th.colunaNome {
+    width: 25em;
+}
+
+.tabela th.titulo {
+    border: thin solid black;
+    background: #F2F2F2;
+}
+
+.tabela td > a.texto {
+    text-decoration: none;
+    padding-left: 1em;
+}
+
+.tabela td > a > figure.mini .figura {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #444;
+}
+
+/* --------------------------- */
+
+/* Estilo do rodapé */
+
+footer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    width: 80%;
+    clear: both;
+}
+
+footer p {
+    font-size: smaller;
+    font-style: italic;
+    text-align: center;
+}
+
+/* -------------------- */
+
+
+#dados_cadastro {
+    background-color: white;
+    border-radius: 10px;
+    border-width: thin;
+    border-style: solid;
+    border-color: #ADADAD;
+    margin: 3em auto;
+    width: 80%;
+    min-width: 50em;
+    text-align: center;
+}
+
+#conteudo_apagar {
+    padding-top: 2em;
+    text-align: center;    
+}
+
+#conteudo_apagar > strong {
+    font-family: cursive, sans-serif;
+}
+
+#conteudo_apagar > div {
+    clear: both;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    display: block;
+}
+
+#conteudo_apagar > div > a {
+    background-color: #F2F2F2;
+    border-style: solid;
+    border-width: thin;
+    border-color: #ADADAD;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 1em;
+    box-shadow: 5px 5px 10px #444;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: 1em;
+    color: black;
+}
+
+#conteudo_apagar > div > a:hover {
+    background: #EBE6E6;
+}
+
+#perfilvisitado {
+    width: 48%;
+    display: inline-block;
+    background-color: white;
+    float: top;
+    border-radius: 10px;
+    border-width: thin;
+    border-style: solid;
+    border-color: #ADADAD;
+    margin: auto;
+}
+
+#perfilvisitado > figure {
+    float: left;
+    margin-bottom: 2em;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #444;
+    width: 40px;
+    height: 40px;
+}
+
+#perfilvisitado > figure img.figura {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #444;
+}
+
+#perfilvisitado  dl {
+    float: left;
+    text-align: justify;
+    margin-left: 2em;
+    width: 60%;
+}
+
+#outrosperfis_visitado {
+    width: 48%;
+    display: inline-block;
+    background-color: white;
+    float: right;
+    border-radius: 10px;
+    border-width: thin;
+    border-style: solid;
+    border-color: #ADADAD;
+    margin: auto;
+}
+
+
+#outrosperfis_visitado > a {
+    padding: 0.5em;
+}
+
+#outrosperfis > a {
+    padding: 0.5em;
+
+}
+
+
+/* Estilos auxiliares */
+
+.form-input {
+    width: 30em;
+}
+
+.link_ver_mais {
+    color: #1E00DE;
+    text-decoration: none;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    margin-left: 11.3em;
+    font-size: 0.8em;
+}
+
+.link_ver_mais:hover {
+    color: #737373;
+}
+
+.btn_salvar {
+    clear: both;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.mensagemErro {
+    color: red;
+    text-align: center;
+    padding: 1em;
+}
+
+.mensagemSucesso {
+    color: blue;
+    text-align: center;
+    padding: 1em;
+}

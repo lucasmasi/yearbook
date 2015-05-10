@@ -1,0 +1,240 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    min-width: 70em;
+    max-width: 80em;
+    background-color: #F2F2F2;
+}
+
+/* Estilos do título da página */
+
+header {
+    background-color: #F2F2F2;
+    border-style: solid;
+    border-width: thin;
+    border-color: #ADADAD;
+    text-align: center;
+    display: inline-block;
+    border-radius: 1em;
+    box-shadow: 5px 5px 10px #444;
+    margin-top: 1em;
+    width: 100%;
+}
+
+header > img {
+    float: left; 
+    padding-left: 20%; 
+    padding-top: 1em;
+}
+
+header > h1 {
+    float:left; 
+    text-align:center; 
+    padding-left: -1em;
+    width:56%;
+}
+
+header > p {
+    float:left; 
+    text-align:center; 
+    width:56%;
+    font-style: italic;
+}
+
+.menuLogin {
+    float: right;
+    padding-top: 1em;
+}
+
+.menuLogin > form {
+    display: table;
+}
+
+.menuLogin > form > div {
+    display: table-row;
+}
+
+.menuLogin > form > div.primeira_linha > * {
+    display: table-cell;
+    margin-left: 0.5em;
+}
+.menuLogin > form > div.segunda_linha > div > input {
+    margin-left: 0.5em;
+}
+
+.menuLogin > form > div.segunda_linha > * {
+    display: table-cell;
+    padding-top: 0.5em;
+}
+
+.menuLogin > form > div > strong, label {
+    font-size: 0.7em;    
+}
+
+.conteudo {
+    clear: both;
+    width: 100%;
+    margin-top: 4em;
+    margin-bottom: 3em;
+}
+
+.conteudo .texto {
+    display: inline-block;
+    width: 65%;
+    text-align: center;
+    line-height: 3em;
+}
+
+.conteudo .texto .principal {
+    font-family: cursive, sans-serif;
+    
+}
+
+.conteudo .texto .secundario {
+    font-family: cursive, sans-serif;
+    size: 0.8em;
+}
+
+.conteudo .texto .secundario a {
+    text-decoration: none;
+    font-style: italic;
+}
+
+.conteudo .imagens {
+    text-align: left;
+    display: inline-block;
+    margin-left:  1em;
+    width: 25%;
+}
+
+.conteudo .imagens p {
+    font-family: cursive, sans-serif;
+}
+
+.conteudo .imagens .mini {
+    display: inline-block;
+    margin: 0 !important;
+    padding: 0.5em;
+    width: 40px;
+    height: 40px;
+
+}
+
+.conteudo .imagens .mini .figura {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #444;
+}
+
+main {
+    margin-top: 2em;
+    text-align: center;
+    display: table;
+    width: 100%;
+}
+
+main ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+main ul li {
+    display: inline-block;
+    padding: 0;
+    margin: 0.5em;
+    background-color: white;
+    border-radius: 10px;
+    border-width: thin;
+    border-style: solid;
+    border-color: #ADADAD;
+}
+
+main > img {
+    float: left;
+    margin-left: 2em;
+    margin-bottom: 2em;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #444;
+}
+
+#dados_pessoais {
+    background-color: white;
+    border-radius: 10px;
+    border-width: thin;
+    border-style: solid;
+    border-color: #ADADAD;
+    margin: 3em auto;
+    width: 80%;
+    min-width: 50em;
+}
+
+#dados_cadastro {
+    background-color: white;
+    border-radius: 10px;
+    border-width: thin;
+    border-style: solid;
+    border-color: #ADADAD;
+    margin: 3em auto;
+    width: 60%;
+    min-width: 50em;
+}
+
+footer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    width: 80%;
+}
+
+footer p {
+    font-size: smaller;
+    font-style: italic;
+    text-align: center;
+}
+
+main ul li a {
+    text-decoration: none;
+}
+
+main ul li a:link {
+    color: black;
+}
+
+main ul li a:hover {
+    color: #0600B3;
+}
+
+dl {
+    float: left;
+    text-align: justify;
+    margin-left: 5em;
+    width: 60%;
+}
+
+dl > dt {
+    margin-top: 0.5em;
+    font-weight: bold;
+    font-size: 0.9em
+}
+
+dl > dd {
+    font-size: 0.8em;
+}
+
+.form-input {
+    width: 30em;
+}
+
+.mensagemErro {
+    color: red;
+}
+
+.mensagemSucesso {
+    color: blue;
+}
+
+.btn_cadastro {
+    clear: both;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}

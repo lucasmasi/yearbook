@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Especialização - Desenvolvimento de aplicações web - Puc Minas</title>
+        <link rel="stylesheet" href="./css/normalize.css">
+        <link rel="stylesheet" href="./css/estiloInterno.css">
+        <script type="text/javascript" src="./js/jquery-1.10.2.js"></script>
+        <script type="text/javascript" src="./js/jquery-ui-1.10.4.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <img src="./img/logo.png" alt="PucMinas" title="PucMinas" height="100" width="100"/>
+            <h1>Yearbook</h1>
+            <p>Desenvolvimento de aplicações web - Turma 2014</p>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="principal.php">Home</a>
+                </li>
+                <li>
+                    <a href="edicaoPerfil.php">Editar perfil</a>
+                </li>
+                <li>
+                    <a href="confirmarApagar.php">Apagar perfil</a>
+                </li>
+                <li>
+                    <a href="sair.php" class="sair">Sair</a>
+                </li>
+                <li>
+                    <form action="busca.php" method="post" role="form">
+                        <input type="text" name="nomecontato" placeholder="Nome do participante"/>
+                        <input type="submit" value="Buscar" class="botao-pesquisa" title="Buscar participante"/>
+                    </form>
+                </li>
+            </ul>
+        </nav>
